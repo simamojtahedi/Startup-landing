@@ -671,10 +671,11 @@ footer {
 .footer-links {
 	padding: 1rem;
 	padding-right: 2rem;
+	padding-top: 2rem;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	justify-content: center;
+	justify-content: flex-start;
 	border-left: 1px solid #5c5b5b;
 }
 
@@ -689,14 +690,13 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
 	padding: 1rem;
 	border-left: 1px solid #5c5b5b;
 }
 
 .footer-contact img {
-	width: 180px;
-	margin-bottom: 1rem;
+	width: 120px;
 }
 
 .footer-contact div {
@@ -721,10 +721,11 @@ footer {
 .footer-info {
 	padding: 0;
 	padding: 1rem;
+	padding-top: 2rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
 }
 
 .footer-info div:first-of-type {
@@ -1167,23 +1168,14 @@ footer {
 	color: #333333;
 }
 
-.virtual-office a:nth-of-type(1) .pack {border: 1px solid #CD7F32;}
-.virtual-office a:nth-of-type(1) .pack h5 {background-color:#CD7F32;}
+.virtual-office a:nth-of-type(1) .pack {border: 1px solid #5ecd32;}
+.virtual-office a:nth-of-type(1) .pack h5 {background-color:#5ecd32;}
 
-.virtual-office a:nth-of-type(2) .pack {border: 1px solid #C0C0C0;}
-.virtual-office a:nth-of-type(2) .pack h5 {background-color:#C0C0C0;}
+.virtual-office a:nth-of-type(2) .pack {border: 1px solid #2320df;}
+.virtual-office a:nth-of-type(2) .pack h5 {background-color:#2320df;}
 
-.virtual-office a:nth-of-type(3) .pack {border: 1px solid #FFC300;}
-.virtual-office a:nth-of-type(3) .pack h5 {background-color:#FFC300;}
-
-.virtual-office a:nth-of-type(4) .pack {border: 1px solid #B9F2FF;}
-.virtual-office a:nth-of-type(4) .pack h5 {background-color:#B9F2FF;}
-
-.virtual-office a:nth-of-type(5) .pack {border: 1px solid #1A5FA1;}
-.virtual-office a:nth-of-type(5) .pack h5 {background-color:#1A5FA1;}
-
-.virtual-office a:nth-of-type(6) .pack {border: 1px solid #00ACE6;}
-.virtual-office a:nth-of-type(6) .pack h5 {background-color:#00ACE6;}
+.virtual-office a:nth-of-type(3) .pack {border: 1px solid #cb3535;}
+.virtual-office a:nth-of-type(3) .pack h5 {background-color:#cb3535;}
 
 .virtual-office h5 {
 	text-align: center;
